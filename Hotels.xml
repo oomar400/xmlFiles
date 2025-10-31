@@ -2,11 +2,11 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
   
-  <Hotel Rating="4.1" NearestAirport="Sky Harbor">
+  <Hotel Rating="4.1">
     <Name>Westin Phoenix</Name>
     <Phone>480-555-8885</Phone>
     <Phone>800-555-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>111</Number>
       <Street>N Main St</Street>
       <City>Tempe</City>
@@ -15,10 +15,10 @@
     </Address>
   </Hotel>
   
-  <Hotel Rating="4.5" NearestAirport="MIA">
+  <Hotel Rating="4.5">
     <Name>South Beach Resort</Name>
     <Phone>305-555-1000</Phone>
-    <Address>
+    <Address NearestAirport="MIA">
       <Number>1500</Number>
       <Street>Ocean Dr</Street>
       <City>Miami Beach</City>
@@ -27,10 +27,10 @@
     </Address>
   </Hotel>
   
-  <Hotel NearestAirport="LAX">
+  <Hotel>
     <Name>Hollywood Tower</Name>
     <Phone>213-555-2251</Phone>
-    <Address>
+    <Address NearestAirport="LAX">
       <Number>9000</Number>
       <Street>Sunset Blvd</Street>
       <City>Los Angeles</City>
@@ -39,11 +39,11 @@
     </Address>
   </Hotel>
   
-  <Hotel Rating="4.7" NearestAirport="BOS">
+  <Hotel Rating="4.7">
     <Name>Boston Harbor View</Name>
     <Phone>617-555-4343</Phone>
     <Phone>888-555-0000</Phone>
-    <Address>
+    <Address NearestAirport="BOS">
       <Number>22</Number>
       <Street>Commercial St</Street>
       <City>Boston</City>
@@ -52,10 +52,10 @@
     </Address>
   </Hotel>
   
-  <Hotel NearestAirport="SEA">
+  <Hotel>
     <Name>Emerald City Inn</Name>
     <Phone>206-555-3030</Phone>
-    <Address>
+    <Address NearestAirport="SEA">
       <Number>100</Number>
       <Street>1st Ave</Street>
       <City>Seattle</City>
@@ -64,10 +64,10 @@
     </Address>
   </Hotel>
   
-  <Hotel Rating="4.4" NearestAirport="SFO">
+  <Hotel Rating="4.4">
     <Name>Golden Gate Suites</Name>
     <Phone>415-555-1234</Phone>
-    <Address>
+    <Address NearestAirport="SFO">
       <Number>555</Number>
       <Street>Lombard St</Street>
       <City>San Francisco</City>
@@ -76,10 +76,10 @@
     </Address>
   </Hotel>
   
-  <Hotel NearestAirport="ATL">
+  <Hotel>
     <Name>Peachtree Grand</Name>
     <Phone>404-555-3100</Phone>
-    <Address>
+    <Address NearestAirport="ATL">
       <Number>300</Number>
       <Street>Peachtree St NE</Street>
       <City>Atlanta</City>
@@ -88,10 +88,10 @@
     </Address>
   </Hotel>
   
-  <Hotel Rating="4.8" NearestAirport="IAD">
+  <Hotel Rating="4.8">
     <Name>National Harbor View</Name>
     <Phone>703-555-7777</Phone>
-    <Address>
+    <Address NearestAirport="IAD">
       <Number>111</Number>
       <Street>Potomac Ave</Street>
       <City>Washington</City>
@@ -100,10 +100,10 @@
     </Address>
   </Hotel>
   
-  <Hotel NearestAirport="DEN">
+  <Hotel>
     <Name>Mile High Hotel</Name>
     <Phone>303-555-8868</Phone>
-    <Address>
+    <Address NearestAirport="DEN">
       <Number>1400</Number>
       <Street>Welton St</Street>
       <City>Denver</City>
@@ -112,10 +112,10 @@
     </Address>
   </Hotel>
   
-  <Hotel Rating="4.3" NearestAirport="EWR">
+  <Hotel Rating="4.3">
     <Name>Liberty State Suites</Name>
     <Phone>201-555-2888</Phone>
-    <Address>
+    <Address NearestAirport="EWR">
       <Number>50</Number>
       <Street>Newark Ave</Street>
       <City>Jersey City</City>
@@ -124,10 +124,10 @@
     </Address>
   </Hotel>
   
-  <Hotel NearestAirport="DFW">
+  <Hotel>
     <Name>Lone Star Grand</Name>
     <Phone>214-555-7111</Phone>
-    <Address>
+    <Address NearestAirport="DFW">
       <Number>2222</Number>
       <Street>S Lamar St</Street>
       <City>Dallas</City>
