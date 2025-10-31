@@ -1,119 +1,137 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- ERROR (1): Root element changed from <Hotels> to <Hotel> -->
-<Hotel>
-
-  <Hotel Rating="4.2">
-    <Name>Westin Tempe</Name>
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>11</Number>
-      <Street>E 7th St</Street>
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  
+  <Hotel Rating="4.1">
+    <Name>Westin Phoenix</Name>
+    <Name>Duplicate Name Error</Name>
+    <Phone>480-555-8885</Phone>
+    <Phone>800-555-8461</Phone>
+    <Address>
+      <Number>111</Number>
+      <Street>N Main St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <!-- ERROR (2): Missing required attribute 'NearestAirport' on Address -->
-  <Hotel Rating="4.0">
-    <Name>Aestin Tempe</Name>
-    <Phone>480-111-2222</Phone>
+  
+  <Hotel Rating="4.5" NearestAirport="MIA">
+    <Name>South Beach Resort</Name>
     <Address>
-      <Number>12</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85282</Zip>
+      <Number>1500</Number>
+      <Street>Ocean Dr</Street>
+      <City>Miami Beach</City>
+      <State>FL</State>
+      <Zip>33139</Zip>
     </Address>
   </Hotel>
-
-  <!-- ERROR (3): Missing Phone element -->
-  <Hotel Rating="3.8">
-    <Name>Bestin Tempe</Name>
-    <Address NearestAirport="Sky Harbor">
-      <Number>13</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85283</Zip>
+  
+  <Hotel NearestAirport="LAX">
+    <Name>Hollywood Tower</Name>
+    <Phone>213-555-2251</Phone>
+    <Address>
+      <Number>9000</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90069</Zip>
+    </Hotel>
+  
+  <Hotel Rating="4.7" NearestAirport="BOS">
+    <Name>Boston Harbor View</Name>
+    <Phone>617-555-4343</Phone>
+    <Phone>888-555-0000</Phone>
+    <Address>
+      <Number>22</Number>
+      <Street>Commercial St</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02109</Zip>
     </Address>
   </Hotel>
-
-  <!-- ERROR (5): Two <Name> elements provided -->
-  <Hotel Rating="4.3">
-    <Name>Destin Tempe</Name>
-    <Name>Destin Tempe</Name>
-    <Phone>480-999-0000</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>15</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85285</Zip>
+  
+  <Hotel NearestAirport="SEA">
+    <Name>Emerald City Inn</Name>
+    <Phone>206-555-3030</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>1st Ave</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98101</Zip>
     </Address>
   </Hotel>
-
-  <Hotel>
-    <Name>Estin Tempe</Name>
-    <Phone>480-101-2020</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>16</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85286</Zip>
+  
+  <Hotel Rating="4.4" NearestAirport="SFO">
+    <Name>Golden Gate Suites</Name>
+    <Phone>415-555-1234</Phone>
+    <Address>
+      <Number>555</Number>
+      <Street>Lombard St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <Zip>94133</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="4.6">
-    <Name>Festin Tempe</Name>
-    <Phone>480-303-4040</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>17</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85287</Zip>
+  
+  <Hotel NearestAirport="ATL">
+    <Name>Peachtree Grand</Name>
+    <Phone>404-555-3100</Phone>
+    <Address>
+      <Number>300</Number>
+      <Street>Peachtree St NE</Street>
+      <City>Atlanta</City>
+      <State>GA</State>
+      <Zip>30308</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="3.9">
-    <Name>Gestin Tempe</Name>
-    <Phone>480-505-6060</Phone>
-    <Phone>480-707-8080</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>18</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85288</Zip>
+  
+  <Hotel Rating="4.8" NearestAirport="IAD">
+    <Name>National Harbor View</Name>
+    <Phone>703-555-7777</Phone>
+    <Address>
+      <Number>111</Number>
+      <Street>Potomac Ave</Street>
+      <City>Washington</City>
+      <State>DC</State>
+      <Zip>20007</Zip>
     </Address>
   </Hotel>
-
-  <Hotel Rating="4.5">
-    <Name>Hestin Tempe</Name>
-    <Phone>480-909-1010</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>19</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85289</Zip>
+  
+  <Hotel NearestAirport="DEN">
+    <Name>Mile High Hotel</Name>
+    <Phone>303-555-8868</Phone>
+    <Address>
+      <Number>1400</Number>
+      <Street>Welton St</Street>
+      <City>Denver</City>
+      <State>CO</State>
+      <Zip>80202</Zip>
     </Address>
   </Hotel>
-
-  <Hotel>
-    <Name>Jestin Tempe</Name>
-    <Phone>480-111-2222</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>20</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85290</Zip>
+  
+  <Hotel Rating="4.3" NearestAirport="EWR">
+    <Name>Liberty State Suites</Name>
+    <Phone>201-555-2888</Phone>
+    <Address>
+      <Number>50</Number>
+      <Street>Newark Ave</Street>
+      <City>Jersey City</City>
+      <State>NJ</State>
+      <Zip>07302</Zip>
     </Address>
   </Hotel>
-
-
+  
+  <Hotel NearestAirport="DFW">
+    <Name>Lone Star Grand</Name>
+    <Phone>214-555-7111</Phone>
+    <Address>
+      <Number>2222</Number>
+      <Street>S Lamar St</Street>
+      <City>Dallas</City>
+      <State>TX</State>
+      <Zip>75215</Zip>
+    </Address>
+  </Hotel>
 </Hotel>
