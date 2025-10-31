@@ -115,15 +115,5 @@
     </Address>
   </Hotel>
 
-    <!-- ERROR (4): Address missing closing tag -->
-  <Hotel Rating="4.1">
-    <Name>Cestin Tempe</Name>
-    <Phone>480-777-8888</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>14</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85284</Zip>
-  </Hotel>
+
 </Hotel>
