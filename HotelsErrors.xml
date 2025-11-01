@@ -123,15 +123,5 @@
     </Address>
   </Hotel>
   
-  <Hotel>
-    <Name>Lone Star Grand</Name>
-    <Phone>214-555-7111</Phone>
-    <Address NearestAirport="DFW">
-      <Number>2222</Number>
-      <Street>S Lamar St</Street>
-      <City>Dallas</City>
-      <State>TX</State>
-      <Zip>75215</Zip>
-   
-  </Hotel>
+
 </Hotel>
