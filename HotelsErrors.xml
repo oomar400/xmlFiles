@@ -4,7 +4,7 @@
   
   <Hotel Rating="4.1">
     <Name>Westin Phoenix</Name>
-    <Name>Duplicate Name Error</Name>
+    <Name>Duplicate Name</Name>
     <Phone>480-555-8885</Phone>
     <Phone>800-555-8461</Phone>
     <Address> <Number>111</Number>
@@ -29,12 +29,13 @@
   <Hotel>
     <Name>Hollywood Tower</Name>
     <Phone>213-555-2251</Phone>
-    <Address NearestAirport="LAX">
+     <Address NearestAirport="LAX">
       <Number>9000</Number>
       <Street>Sunset Blvd</Street>
       <City>Los Angeles</City>
       <State>CA</State>
       <Zip>90069</Zip>
+     </Address>
     </Hotel>
   
   <Hotel Rating="4.7">
@@ -131,6 +132,6 @@
       <City>Dallas</City>
       <State>TX</State>
       <Zip>75215</Zip>
-    </Address>
+   
   </Hotel>
 </Hotel>
