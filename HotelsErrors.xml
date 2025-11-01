@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Hotels changed to Hotel -->
+
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  
+
+<!-- Duplicate names -->
+
   <Hotel Rating="4.1">
     <Name>Westin Phoenix</Name>
     <Name>Westin Phoenix</Name>
     <Phone>480-555-8885</Phone>
     <Phone>800-555-8461</Phone>
-    <Address> <Number>111</Number>
+    <Address NearestAirport="Sky Harbor"> 
+      <Number>111</Number>
       <Street>N Main St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  
+
+ <!-- No phone number -->
+
   <Hotel Rating="4.5">
     <Name>South Beach Resort</Name>
     <Address NearestAirport="MIA">
@@ -25,7 +32,9 @@
       <Zip>33139</Zip>
     </Address>
   </Hotel>
-  
+
+<!-- No required attribute -->
+
   <Hotel>
     <Name>Hollywood Tower</Name>
     <Phone>213-555-2251</Phone>
@@ -123,6 +132,8 @@
     </Address>
   </Hotel>
 
+
+  <!-- Address with no closing tag -->
 
   <Hotel>
     <Name>Lone Star Grand</Name>
